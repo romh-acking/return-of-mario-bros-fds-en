@@ -1,0 +1,1111 @@
+{
+  "IndexTable": {
+    "Koopa Screen": {
+      "PointerTable": {
+        "0x193": {
+          "PointerTableEntry": {
+            "0": {
+              "PointerLocation": "0x193",
+              "TextLocation": "0x463",
+              "ByteLength": "0x13B",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "ながたにえんワ-ルドで[LINE]マリオグツズをもらっちゃおう！[LINE]ゲ-ムのなかにでてくるあんごうを[LINE]はがきにかいておうぼけんをはっておくると、[NEXT]100000てんで、ス-パ-マリオ3トラソプ[LINE]200000てんで、ス-パ-マリオ3カセツト[LINE]か、にんてんどうしんさくカセツトのどちらかが[LINE]ちゅうせんであたるよ。[NEXT]そのうえ、おうぼしてくれたひとぜんいんの[LINE]なかから、ちゅうせんで、ス-パ-マリオ3[LINE]とくせいキ-ホルダ-も、あたるんだ。[NEXT]88年11月30日から、[LINE]89年　5月31日まで、やってるよ。[LINE]くわしいことは、とりあつかいせつめいしょを[LINE]よ-くよんでね！　　　　　さあガソバロ-！[NEXT][STOP]"
+                ],
+                "New": [
+                  "You can win various Mario-themed prizes by playing Nagatanien World![NEXT]Send in any codes you find via postcard.[NEXT]Score 100,000 points, and you'll have the chance to win a Super Mario Bros. 3 trading card.[NEXT]With 200,000 points, you'll have the chance to win a Super Mario Bros. 3 Game Pak [Left Parenthesis]or any new Nintendo game of your choice[Right Parenthesis]![NEXT]Not only that, but players who submit an entry will have the chance to win a Super Mario Bros. 3 keyring.[NEXT]The event runs from November 30, 1988 to May 31, 1989.[LINE][LINE]See the manual for more details![LINE][LINE]{4d}{4d}{4d}{4d}{4d}{4d}{4d}{4d}{4d}{4d}{4d}{4d}Good luck![NEXT][STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 0
+            }
+          }
+        }
+      }
+    },
+    "Slot Items": {
+      "PointerTable": {
+        "0x163A8": {
+          "PointerTableEntry": {
+            "0": {
+              "PointerLocation": "0x163A8",
+              "TextLocation": "0x16D04",
+              "ByteLength": "0x13",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "　　　　ざんねんでした。　　　　[STOP]"
+                ],
+                "New": [
+                  "   Too bad...[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 0
+            },
+            "1": {
+              "PointerLocation": "0x163AA",
+              "TextLocation": "0x16D37",
+              "ByteLength": "0x11",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "　　　　　　　　　　　　　　　　[STOP]"
+                ],
+                "New": [
+                  "                [STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 1
+            },
+            "2": {
+              "PointerLocation": "0x163AC",
+              "TextLocation": "0x16CD0",
+              "ByteLength": "0x12",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "おめでとう!　　　　　　　　　　[STOP]"
+                ],
+                "New": [
+                  "Congratulations![STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 2
+            },
+            "3": {
+              "PointerLocation": "0x163AE",
+              "TextLocation": "0x16CF3",
+              "ByteLength": "0x11",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "1キャラクタ-ふっかつしました。[STOP]"
+                ],
+                "New": [
+                  "You get 1 life.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 3
+            },
+            "4": {
+              "PointerLocation": "0x163B0",
+              "TextLocation": "0x16CD0",
+              "ByteLength": "0x12",
+              "SamePointerAs": {
+                "IndexTable": "Slot Items",
+                "PointerTableLocation": "0x163A8",
+                "EntryNo": 2
+              },
+              "Text": {
+                "Original": [
+                  null
+                ],
+                "New": [
+                  null
+                ],
+                "Comment": [
+                  null
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 4
+            },
+            "5": {
+              "PointerLocation": "0x163B2",
+              "TextLocation": "0x16CE2",
+              "ByteLength": "0x11",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "2キャラクタ-ふっかつしました。[STOP]"
+                ],
+                "New": [
+                  "You get 2 lives.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 5
+            },
+            "6": {
+              "PointerLocation": "0x163B4",
+              "TextLocation": "0x16CD0",
+              "ByteLength": "0x12",
+              "SamePointerAs": {
+                "IndexTable": "Slot Items",
+                "PointerTableLocation": "0x163A8",
+                "EntryNo": 2
+              },
+              "Text": {
+                "Original": [
+                  null
+                ],
+                "New": [
+                  null
+                ],
+                "Comment": [
+                  null
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 6
+            },
+            "7": {
+              "PointerLocation": "0x163B6",
+              "TextLocation": "0x16D17",
+              "ByteLength": "0x11",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "4キャラクタ-ふっかつしました。[STOP]"
+                ],
+                "New": [
+                  ""
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 7
+            },
+            "8": {
+              "PointerLocation": "0x163B8",
+              "TextLocation": "0x16D04",
+              "ByteLength": "0x13",
+              "SamePointerAs": {
+                "IndexTable": "Slot Items",
+                "PointerTableLocation": "0x163A8",
+                "EntryNo": 0
+              },
+              "Text": {
+                "Original": [
+                  null
+                ],
+                "New": [
+                  null
+                ],
+                "Comment": [
+                  null
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 8
+            },
+            "9": {
+              "PointerLocation": "0x163BA",
+              "TextLocation": "0x16D28",
+              "ByteLength": "0x0F",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "　もういちどチャレソツ!![STOP]"
+                ],
+                "New": [
+                  "  Try again!!  [STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 9
+            }
+          }
+        }
+      }
+    },
+    "Nagatanien World Intermission text": {
+      "PointerTable": {
+        "0x63E2": {
+          "PointerTableEntry": {
+            "0": {
+              "PointerLocation": "0x63E2",
+              "TextLocation": "0x67A0",
+              "ByteLength": "0x0B",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}もりもりたべよう[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Chow it down![STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age <= 7"
+                ]
+              },
+              "CumulativeId": 0
+            },
+            "1": {
+              "PointerLocation": "0x63E4",
+              "TextLocation": "0x67CC",
+              "ByteLength": "0x0D",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}ぱらぱらぱらりん[STOP]"
+                ],
+                "New": [
+                  "{21}{26}*Sprinkle*[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age <= 7"
+                ]
+              },
+              "CumulativeId": 1
+            },
+            "2": {
+              "PointerLocation": "0x63E6",
+              "TextLocation": "0x67F3",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}さらさらおいしい[STOP]"
+                ],
+                "New": [
+                  "{21}{26}It's quite tasty![STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age <= 7"
+                ]
+              },
+              "CumulativeId": 2
+            },
+            "3": {
+              "PointerLocation": "0x63E8",
+              "TextLocation": "0x6819",
+              "ByteLength": "0x0C",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}ぱっくんぱっくん[STOP]"
+                ],
+                "New": [
+                  "{21}{26}*Gulp* *Gulp*[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age <= 7"
+                ]
+              },
+              "CumulativeId": 3
+            },
+            "4": {
+              "PointerLocation": "0x63EA",
+              "TextLocation": "0x6847",
+              "ByteLength": "0x0D",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}ぱくぱくぱくりん[STOP]"
+                ],
+                "New": [
+                  "{21}{26}*Munch* *Munch*[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age <= 7"
+                ]
+              },
+              "CumulativeId": 4
+            },
+            "5": {
+              "PointerLocation": "0x63EC",
+              "TextLocation": "0x67AD",
+              "ByteLength": "0x0C",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}じゅくからかえって[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Eat after school.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 7 && age <= 9"
+                ]
+              },
+              "CumulativeId": 5
+            },
+            "6": {
+              "PointerLocation": "0x63EE",
+              "TextLocation": "0x67DB",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}おかわり3ばい[STOP]"
+                ],
+                "New": [
+                  "{21}{26}You'll want more![STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 7 && age <= 9"
+                ]
+              },
+              "CumulativeId": 6
+            },
+            "7": {
+              "PointerLocation": "0x63F0",
+              "TextLocation": "0x680C",
+              "ByteLength": "0x0B",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}マリオもだいすき[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Mario loves it.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 7 && age <= 9"
+                ]
+              },
+              "CumulativeId": 7
+            },
+            "8": {
+              "PointerLocation": "0x63F2",
+              "TextLocation": "0x6827",
+              "ByteLength": "0x0B",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}ねえさんおだてて[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Charm a chick.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 7 && age <= 9"
+                ]
+              },
+              "CumulativeId": 8
+            },
+            "9": {
+              "PointerLocation": "0x63F4",
+              "TextLocation": "0x6856",
+              "ByteLength": "0x0C",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}しゅくだいすませて[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Good brainfood.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 7 && age <= 9"
+                ]
+              },
+              "CumulativeId": 9
+            },
+            "10": {
+              "PointerLocation": "0x63F6",
+              "TextLocation": "0x67BB",
+              "ByteLength": "0x0F",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}おいしさがつよさのひみつ[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Food is fuel.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 9"
+                ]
+              },
+              "CumulativeId": 10
+            },
+            "11": {
+              "PointerLocation": "0x63F8",
+              "TextLocation": "0x67E7",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}おいしさまとめて[STOP]"
+                ],
+                "New": [
+                  "{21}{26}It's delicious.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 9"
+                ]
+              },
+              "CumulativeId": 11
+            },
+            "12": {
+              "PointerLocation": "0x63FA",
+              "TextLocation": "0x67FF",
+              "ByteLength": "0x0B",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}おもわずにっこり[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Comfort food.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 9"
+                ]
+              },
+              "CumulativeId": 12
+            },
+            "13": {
+              "PointerLocation": "0x63FC",
+              "TextLocation": "0x6834",
+              "ByteLength": "0x11",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}すぐできてマリオもうれしい[STOP]"
+                ],
+                "New": [
+                  "{21}{26}Mario likes it![STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 9"
+                ]
+              },
+              "CumulativeId": 13
+            },
+            "14": {
+              "PointerLocation": "0x63FE",
+              "TextLocation": "0x6864",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{20}{E6}かぞくそろって[STOP]"
+                ],
+                "New": [
+                  "{21}{26}For the family.[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  "Intermission Slogan: age > 9"
+                ]
+              },
+              "CumulativeId": 14
+            },
+            "15": {
+              "PointerLocation": "0x6400",
+              "TextLocation": "0x676A",
+              "ByteLength": "0x08",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{26}マリオカレ―[STOP]"
+                ],
+                "New": [
+                  "{20}{E6}Mario's Curry:[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 15
+            },
+            "16": {
+              "PointerLocation": "0x6402",
+              "TextLocation": "0x6774",
+              "ByteLength": "0x09",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{26}マリオふりかけ[STOP]"
+                ],
+                "New": [
+                  "{20}{E6}Mario's Furikake:[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 16
+            },
+            "17": {
+              "PointerLocation": "0x6404",
+              "TextLocation": "0x677F",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{26}おちゃづけのり[STOP]"
+                ],
+                "New": [
+                  "{20}{E6}Ochazuke Nori:[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 17
+            },
+            "18": {
+              "PointerLocation": "0x6406",
+              "TextLocation": "0x678B",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{26}チャ―ハンのもと[STOP]"
+                ],
+                "New": [
+                  "{20}{E6}Fried Rice:[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 18
+            },
+            "19": {
+              "PointerLocation": "0x6408",
+              "TextLocation": "0x6797",
+              "ByteLength": "0x07",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{26}すしたろう[STOP]"
+                ],
+                "New": [
+                  "{20}{E6}Sushi Taro:[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 19
+            },
+            "20": {
+              "PointerLocation": "0x640A",
+              "TextLocation": "0x6870",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}がんばってね[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Good luck,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 20
+            },
+            "21": {
+              "PointerLocation": "0x640C",
+              "TextLocation": "0x687C",
+              "ByteLength": "0x0B",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}ゴ―！ゴ―！！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Go, go,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 21
+            },
+            "22": {
+              "PointerLocation": "0x640E",
+              "TextLocation": "0x6889",
+              "ByteLength": "0x0B",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}ほな、いきまひょか[STOP]"
+                ],
+                "New": [
+                  "{21}{66}C'mon, let's go,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 22
+            },
+            "23": {
+              "PointerLocation": "0x6410",
+              "TextLocation": "0x6896",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}フレ―！フレ―！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Hey! Hey,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 23
+            },
+            "24": {
+              "PointerLocation": "0x6412",
+              "TextLocation": "0x68A2",
+              "ByteLength": "0x0E",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}めざせ！ハイスココア！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Get the high score,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 24
+            },
+            "25": {
+              "PointerLocation": "0x6414",
+              "TextLocation": "0x68B2",
+              "ByteLength": "0x0C",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}では、ちょうせん！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}It's on,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 25
+            },
+            "26": {
+              "PointerLocation": "0x6416",
+              "TextLocation": "0x68C0",
+              "ByteLength": "0x08",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}ファイト！！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Go for it,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 26
+            },
+            "27": {
+              "PointerLocation": "0x6418",
+              "TextLocation": "0x68CA",
+              "ByteLength": "0x08",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}アタック！！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Go get 'em,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 27
+            },
+            "28": {
+              "PointerLocation": "0x641A",
+              "TextLocation": "0x68D4",
+              "ByteLength": "0x09",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}レッﾂトライ！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Let's go,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 28
+            },
+            "29": {
+              "PointerLocation": "0x641C",
+              "TextLocation": "0x68DF",
+              "ByteLength": "0x0D",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}20まんてんめざそう[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Get 200K points,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 29
+            },
+            "30": {
+              "PointerLocation": "0x641E",
+              "TextLocation": "0x68EE",
+              "ByteLength": "0x10",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}がんばれ！がんばれ！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Do your best,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 30
+            },
+            "31": {
+              "PointerLocation": "0x6420",
+              "TextLocation": "0x6900",
+              "ByteLength": "0x0C",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}きらくにいこうぜ！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Take it easy,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 31
+            },
+            "32": {
+              "PointerLocation": "0x6422",
+              "TextLocation": "0x690E",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}しょうぶだ！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Game on,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 32
+            },
+            "33": {
+              "PointerLocation": "0x6424",
+              "TextLocation": "0x691A",
+              "ByteLength": "0x0D",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}よっ！にっぽんいち！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}You're the best,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 33
+            },
+            "34": {
+              "PointerLocation": "0x6426",
+              "TextLocation": "0x6929",
+              "ByteLength": "0x0E",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}さあ、チャレンジだ！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Do your best,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 34
+            },
+            "35": {
+              "PointerLocation": "0x6428",
+              "TextLocation": "0x6939",
+              "ByteLength": "0x0F",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}めざせ！マリオめいじん[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Be a Mario pro,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 35
+            },
+            "36": {
+              "PointerLocation": "0x642A",
+              "TextLocation": "0x694A",
+              "ByteLength": "0x09",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}まかせたぞ！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}You got this,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 36
+            },
+            "37": {
+              "PointerLocation": "0x642C",
+              "TextLocation": "0x6955",
+              "ByteLength": "0x0C",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}パワ―ぜんかい！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Good luck,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 37
+            },
+            "38": {
+              "PointerLocation": "0x642E",
+              "TextLocation": "0x6963",
+              "ByteLength": "0x08",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}ファイア―！[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Here we go,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 38
+            },
+            "39": {
+              "PointerLocation": "0x6430",
+              "TextLocation": "0x696D",
+              "ByteLength": "0x0A",
+              "SamePointerAs": null,
+              "Text": {
+                "Original": [
+                  "{21}{A7}あせらずにね。[STOP]"
+                ],
+                "New": [
+                  "{21}{66}Slow and steady,[STOP]"
+                ],
+                "Comment": [
+                  ""
+                ],
+                "Menu": [
+                  ""
+                ]
+              },
+              "CumulativeId": 39
+            }
+          }
+        }
+      }
+    }
+  }
+}

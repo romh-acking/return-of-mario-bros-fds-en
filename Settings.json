@@ -1,0 +1,204 @@
+{
+    "SpiroVersion": 2,
+    "Files":
+    {
+        "Original": ".\\roms\\Kaettekita Mario Brothers (Japan) (Disk Writer).fds",
+        "New": ".\\roms\\Kaettekita Mario Brothers (NEW).fds"
+    },
+    "Scripts":
+    {
+        "ScriptPath": ".\\script\\Script.json",
+        "Original": true,
+        "Comment": true,
+        "New": true,
+        "Bytes": false,
+        "Menu": true,
+        "Proof": false
+    },
+    "Misc":
+    {
+        "BlankOutTextDataAfterRead": false,
+        "BlankOutByte": "0x62",
+        "MultiplePointersReferencingAString": true,
+        "GetFileToWritePointerFromPointersField": false
+    },
+    "ScriptManager":
+    {
+        "WriteScript": "",
+        "DisplayReplaceCollection":
+        [
+            {
+                "Find": "\\[LINE\\]",
+                "Replace": "\r\n"
+            }
+        ]
+    },
+    "Pointers":
+    {
+        "Read&Write":
+        {
+            "Koopa Screen":
+            {
+                "File": "Original",
+                "PointerFormat":
+                [
+                    {
+                        "Address":
+                        [
+                            "0x193"
+                        ],
+                        "PcDifference": "-0x5ec4",
+                        "AddressConversion": "None",
+                        "EntryNumber": "0x1",
+                        "PointerType": "Custom",
+                        "PointerLength": 6,
+                        "CustomPointerFormat": [ "A9", "(B0)", "85", "0A", "A9", "(B1)" ]
+                    }
+                ],
+                "RenderFormat":
+                {
+                    "DialogueReadType": "HasDelimiter",
+                    "Delimiter": [ "[STOP]" ],
+                    "RenderType": "Dictionary",
+                    "DictionaryInteractions":
+                    [
+                        "CHR"
+                    ],
+                    "IsDictionary": false,
+                    "CHRFile": ".\\tables\\Koopa",
+                    "DictionaryTemplateFile": "",
+                    "MirrorBlankDictionaryEntries": false,
+                    "PixelsPerLine": 176,
+                    "AutoLineBreak": "TokimekiMihoMessage",
+                    "StoreOutOfOrderToSaveSpace": false
+                }
+            },
+            "Slot Items":
+            {
+                "File": "Original",
+                "PointerFormat":
+                [
+                    {
+                        "Address":
+                        [
+                            "0x163a8"
+                        ],
+                        "PcDifference": "0xF01C",
+                        "AddressConversion": "None",
+                        "EntryNumber": "0xa",
+                        "PointerType": "LittleEndian",
+                        "PointerLength": 2,
+                        "StoreOutOfOrderToSaveSpace": false
+                    }
+                ],
+                "RenderFormat":
+                {
+                    "DialogueReadType": "HasDelimiter",
+                    "Delimiter": [ "[STOP]" ],
+                    "RenderType": "Dictionary",
+                    "DictionaryInteractions": [ "CHR" ],
+                    "IsDictionary": false,
+                    "CHRFile": ".\\tables\\Slots",
+                    "DictionaryTemplateFile": "",
+                    "MirrorBlankDictionaryEntries": false,
+                    "PixelsPerLine": 0,
+                    "AutoLineBreak": "None",
+                    "StoreOutOfOrderToSaveSpace": false
+                }
+            },
+            "Nagatanien World Intermission text":
+            {
+                "File": "Original",
+                "PointerFormat":
+                [
+                    {
+                        "Address":
+                        [
+                            "0x63E2"
+                        ],
+                        "PcDifference": "-0x4EB3",
+                        "AddressConversion": "None",
+                        "EntryNumber": "40",
+                        "PointerType": "LittleEndian",
+                        "PointerLength": 2,
+                        "StoreOutOfOrderToSaveSpace": false
+                    }
+                ],
+                "RenderFormat":
+                {
+                    "DialogueReadType": "HasDelimiter",
+                    "Delimiter": [ "[STOP]" ],
+                    "RenderType": "KaettekitaMarioBrothersNagatanienWorldIntermission",
+                    "DictionaryInteractions":
+                    [
+                        "CHR"
+                    ],
+                    "IsDictionary": false,
+                    "CHRFile": ".\\tables\\Nagatanien Switch Screen",
+                    "DictionaryTemplateFile": "",
+                    "MirrorBlankDictionaryEntries": false,
+                    "PixelsPerLine": 0,
+                    "AutoLineBreak": "None",
+                    "StoreOutOfOrderToSaveSpace": false
+                }
+            }
+        }
+    },
+    "Write":
+    {
+        "WriteableRange":
+        {
+            "Koopa Screen Range":
+            {
+                "File": "New",
+                "StartAddress": "0xe70",
+                "Size": "0x2C0"
+            },
+            "Slot Items Range":
+            {
+                "File": "New",
+                "StartAddress": "0x16cd0",
+                "Size": "0x77"
+            },
+            "Nagatanien World Intermission text range (NEW)":
+            {
+                "File": "New",
+                "StartAddress": "0x8e9a",
+                "Size": "0x2aa"
+            }
+        },
+        "WriteRegion":
+        [
+            {
+                "EntryOwners":
+                [
+                    "Koopa Screen"
+                ],
+                "WriteableAddressRanges":
+                [
+                    "Koopa Screen Range"
+                ]
+            },
+            {
+                "EntryOwners":
+                [
+                    "Slot Items"
+                ],
+                "WriteableAddressRanges":
+                [
+                    "Slot Items Range"
+                ]
+            },
+            {
+                "EntryOwners":
+                [
+                    "Nagatanien World Intermission text"
+                ],
+                "WriteableAddressRanges":
+                [
+                    "Nagatanien World Intermission text range (NEW)"
+                ]
+            }
+        ]
+    }
+}
