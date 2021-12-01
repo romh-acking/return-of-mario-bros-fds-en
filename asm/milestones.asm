@@ -29,7 +29,7 @@ sta $b18d,x
 cpx #$00
 bne Name2Loop
 
-// Remove "くん" (pronoun)
+// Remove "くん" (suffix)
 org $15432
 nop
 nop
